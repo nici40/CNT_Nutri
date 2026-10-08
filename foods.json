@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "updated": "2026-10-08",
+  "foods": [
+    {
+      "id": "chicken-breast-raw",
+      "name": "Chicken breast, raw",
+      "aliases": {
+        "en": ["chicken fillet", "chicken"],
+        "ro": ["piept de pui", "piept de pui crud", "file de pui", "pui"],
+        "ru": ["куриная грудка", "куриное филе", "грудка куриная сырая", "курица"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 120, "protein": 22.5, "carbs": 0, "fat": 2.6, "sugar": 0 },
+      "portions": [{ "label": "1 breast", "amount": 174 }],
+      "source": "USDA FoodData Central (SR Legacy): chicken, broilers or fryers, breast, meat only, raw"
+    },
+    {
+      "id": "chicken-breast-cooked",
+      "name": "Chicken breast, cooked",
+      "aliases": {
+        "en": ["grilled chicken breast", "roasted chicken breast", "boiled chicken breast"],
+        "ro": ["piept de pui fiert", "piept de pui la grătar", "piept de pui copt", "file de pui fiert"],
+        "ru": ["куриная грудка варёная", "куриная грудка жареная", "куриная грудка гриль", "курица варёная"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 165, "protein": 31, "carbs": 0, "fat": 3.6, "sugar": 0 },
+      "portions": [
+        { "label": "1/2 breast", "amount": 86 },
+        { "label": "1 breast", "amount": 172 }
+      ],
+      "source": "USDA FoodData Central (SR Legacy): chicken, broilers or fryers, breast, meat only, roasted"
+    },
+    {
+      "id": "egg-whole",
+      "name": "Egg, whole",
+      "aliases": {
+        "en": ["eggs", "hen egg", "boiled egg", "fried egg"],
+        "ro": ["ou", "ouă", "oua", "ou de găină", "ou fiert", "ouă fierte"],
+        "ru": ["яйцо", "яйца", "яйцо куриное", "яйцо варёное", "яичница"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 143, "protein": 12.6, "carbs": 0.7, "fat": 9.5, "sugar": 0.4 },
+      "portions": [
+        { "label": "1 large", "amount": 50 },
+        { "label": "1 medium", "amount": 44 },
+        { "label": "1 small", "amount": 38 }
+      ],
+      "source": "USDA FoodData Central (SR Legacy): egg, whole, raw, fresh (weights without shell)"
+    },
+    {
+      "id": "tvorog-5",
+      "name": "Farmer's cheese (tvorog), 5% fat",
+      "aliases": {
+        "en": ["cottage cheese", "tvorog", "quark", "curd cheese"],
+        "ro": ["brânză de vaci", "branza de vaci", "brânză de vaci 5%", "caș proaspăt"],
+        "ru": ["творог", "творог 5%", "творог обычный"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 121, "protein": 17.2, "carbs": 1.8, "fat": 5, "sugar": 1.8 },
+      "portions": [
+        { "label": "1 serving", "amount": 150 },
+        { "label": "1 tbsp", "amount": 20 },
+        { "label": "1 pack", "amount": 200 }
+      ],
+      "source": "Typical Eastern-European 5% fat tvorog / brânză de vaci (approximate, from common food-composition tables; check your pack label)"
+    },
+    {
+      "id": "milk-2",
+      "name": "Milk, 2% fat",
+      "aliases": {
+        "en": ["milk", "cow milk", "semi-skimmed milk"],
+        "ro": ["lapte", "lapte 2%", "lapte de vacă"],
+        "ru": ["молоко", "молоко 2%", "молоко коровье"]
+      },
+      "unit": "ml",
+      "per100": { "kcal": 51, "protein": 3.4, "carbs": 5, "fat": 2, "sugar": 5 },
+      "portions": [
+        { "label": "1 glass", "amount": 250 },
+        { "label": "1 cup", "amount": 240 }
+      ],
+      "source": "USDA FoodData Central (SR Legacy): milk, reduced fat, 2%; converted to per 100 ml (density 1.03)"
+    },
+    {
+      "id": "kefir-2-5",
+      "name": "Kefir, 2.5% fat",
+      "aliases": {
+        "en": ["kefir", "cultured milk drink"],
+        "ro": ["kefir", "chefir", "chefir 2,5%"],
+        "ru": ["кефир", "кефир 2,5%", "кефир 2.5%"]
+      },
+      "unit": "ml",
+      "per100": { "kcal": 50, "protein": 3, "carbs": 4, "fat": 2.5, "sugar": 4 },
+      "portions": [{ "label": "1 glass", "amount": 250 }],
+      "source": "Typical 2.5% fat kefir (approximate, from common food-composition tables; check your pack label)"
+    },
+    {
+      "id": "yogurt-plain",
+      "name": "Yogurt, plain",
+      "aliases": {
+        "en": ["plain yogurt", "natural yogurt", "yoghurt"],
+        "ro": ["iaurt", "iaurt natural", "iaurt simplu"],
+        "ru": ["йогурт", "йогурт натуральный", "йогурт без добавок"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 63, "protein": 3.2, "carbs": 4.8, "fat": 3.2, "sugar": 4.8 },
+      "portions": [
+        { "label": "1 pot", "amount": 125 },
+        { "label": "1 cup", "amount": 245 }
+      ],
+      "source": "Typical plain yogurt, ~3% fat (approximate; protein ~3 g/100 g; check your pack label)"
+    },
+    {
+      "id": "yogurt-fruit",
+      "name": "Yogurt, fruit",
+      "aliases": {
+        "en": ["fruit yogurt", "flavoured yogurt", "yoghurt with fruit"],
+        "ro": ["iaurt cu fructe", "iaurt de fructe", "iaurt aromatizat"],
+        "ru": ["йогурт фруктовый", "йогурт с фруктами", "йогурт с наполнителем"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 85, "protein": 3, "carbs": 13.5, "fat": 2.3, "sugar": 12.5 },
+      "portions": [{ "label": "1 pot", "amount": 125 }],
+      "source": "Typical supermarket fruit yogurt (approximate; protein ~3 g/100 g; check your pack label)"
+    },
+    {
+      "id": "yogurt-greek",
+      "name": "Greek yogurt, plain",
+      "aliases": {
+        "en": ["greek yoghurt", "strained yogurt"],
+        "ro": ["iaurt grecesc", "iaurt grecesc natural", "iaurt greco"],
+        "ru": ["греческий йогурт", "йогурт греческий", "греческий йогурт натуральный"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 97, "protein": 9, "carbs": 4, "fat": 5, "sugar": 4 },
+      "portions": [
+        { "label": "1 pot", "amount": 150 },
+        { "label": "1 cup", "amount": 245 }
+      ],
+      "source": "USDA FoodData Central (SR Legacy): yogurt, Greek, plain, whole milk"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "aliases": {
+        "en": ["bananas"],
+        "ro": ["banană", "banana", "banane"],
+        "ru": ["банан", "бананы"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 89, "protein": 1.1, "carbs": 22.8, "fat": 0.3, "sugar": 12.2 },
+      "portions": [
+        { "label": "1 medium", "amount": 118 },
+        { "label": "1 small", "amount": 101 },
+        { "label": "1 large", "amount": 136 }
+      ],
+      "source": "USDA FoodData Central (SR Legacy): bananas, raw (weights without peel)"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "aliases": {
+        "en": ["apples"],
+        "ro": ["măr", "mar", "mere"],
+        "ru": ["яблоко", "яблоки"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 52, "protein": 0.3, "carbs": 13.8, "fat": 0.2, "sugar": 10.4 },
+      "portions": [
+        { "label": "1 medium", "amount": 182 },
+        { "label": "1 large", "amount": 223 }
+      ],
+      "source": "USDA FoodData Central (SR Legacy): apples, raw, with skin"
+    },
+    {
+      "id": "rice-white-cooked",
+      "name": "Rice, white, cooked",
+      "aliases": {
+        "en": ["rice", "boiled rice", "white rice"],
+        "ro": ["orez", "orez fiert", "orez alb"],
+        "ru": ["рис", "рис варёный", "рис отварной", "белый рис"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 130, "protein": 2.7, "carbs": 28.2, "fat": 0.3, "sugar": 0.1 },
+      "portions": [{ "label": "1 cup", "amount": 158 }],
+      "source": "USDA FoodData Central (SR Legacy): rice, white, long-grain, regular, cooked"
+    },
+    {
+      "id": "bread-white",
+      "name": "Bread, white",
+      "aliases": {
+        "en": ["bread", "wheat bread", "white loaf"],
+        "ro": ["pâine", "paine", "pâine albă", "paine alba"],
+        "ru": ["хлеб", "хлеб белый", "батон", "белый хлеб"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 266, "protein": 8.9, "carbs": 49.2, "fat": 3.3, "sugar": 5 },
+      "portions": [{ "label": "1 slice", "amount": 28 }],
+      "source": "USDA FoodData Central (SR Legacy): bread, white, commercially prepared (approximate)"
+    },
+    {
+      "id": "mamaliga",
+      "name": "Mămăligă (cornmeal porridge)",
+      "aliases": {
+        "en": ["mamaliga", "polenta", "cornmeal porridge", "hominy"],
+        "ro": ["mămăligă", "mamaliga", "mămăligă fiartă"],
+        "ru": ["мамалыга", "полента", "кукурузная каша"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 70, "protein": 1.6, "carbs": 14.8, "fat": 0.7, "sugar": 0.1 },
+      "portions": [{ "label": "1 portion", "amount": 200 }],
+      "source": "Calculated from USDA cornmeal (1 part cornmeal boiled in ~4.5 parts water, by weight); approximate, depends on how thick you make it"
+    },
+    {
+      "id": "sante-granola-pomegranate",
+      "name": "Sante Granola Pomegranate",
+      "aliases": {
+        "en": ["sante granola", "granola pomegranate", "granola"],
+        "ro": ["granola rodie", "granola sante", "granola cu rodie"],
+        "ru": ["гранола гранат", "гранола санте", "гранола"]
+      },
+      "unit": "g",
+      "per100": { "kcal": 409, "protein": 7.1, "carbs": 70.6, "fat": 9.2, "sugar": 22 },
+      "portions": [],
+      "source": "Package label (values per 100 g provided by the user)"
+    },
+    {
+      "id": "red-bull",
+      "name": "Red Bull",
+      "aliases": {
+        "en": ["red bull energy drink", "energy drink", "redbull"],
+        "ro": ["red bull", "băutură energizantă", "bautura energizanta", "energizant"],
+        "ru": ["ред булл", "энергетик", "энергетический напиток"]
+      },
+      "unit": "ml",
+      "per100": { "kcal": 45.07, "protein": 0, "carbs": 10.7, "fat": 0, "sugar": 10.7, "caffeine": 32.11 },
+      "portions": [
+        { "label": "1 can", "amount": 355 },
+        { "label": "1 small can", "amount": 250 }
+      ],
+      "source": "Label values provided by the user for a 355 ml can: 160 kcal, 38 g sugar, 114 mg caffeine (per 100 ml = ÷3.55). Carbs assumed equal to sugar; protein and fat taken as 0"
+    },
+    {
+      "id": "red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "aliases": {
+        "en": ["red bull sugar free", "red bull zero", "sugar free energy drink"],
+        "ro": ["red bull fără zahăr", "red bull fara zahar", "red bull sugarfree"],
+        "ru": ["ред булл без сахара", "энергетик без сахара"]
+      },
+      "unit": "ml",
+      "per100": { "kcal": 4, "protein": 0, "carbs": 0.4, "fat": 0, "sugar": 0, "caffeine": 32 },
+      "portions": [
+        { "label": "1 can", "amount": 355 },
+        { "label": "1 small can", "amount": 250 }
+      ],
+      "source": "Approximate manufacturer values (about 3-5 kcal and 32 mg caffeine per 100 ml); please check them against your can"
+    }
+  ]
+}
